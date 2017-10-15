@@ -12,7 +12,7 @@ jhipster:
     security:
         authentication:
             jwt:
-                secret: test
+                secret: {cipher}876900aadbe1cc52adc7cc77f1676b6344d2e45f716f1086ec5c9a6eb2e83238f297c6b81b2a09200d8eb828a3cc115b03fc3781e41259b8fa022e2e2533d5fe
     metrics:
         logs: # report metrics in the logs
             enabled: false
